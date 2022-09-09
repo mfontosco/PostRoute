@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 2rem;
+}
+
+.left{
+    flex:1;
+    margin-right: 50px;
+}
+.right{
+    flex:1
+}
+
+.right .form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background: darkblue;
+}
+.post{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.post .title{
+    border-bottom: 2px;
+}
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
